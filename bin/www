@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('student-result:server');
 var http = require('http');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://astha:astha123@cluster0.nlnl4ms.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/student_result');
+mongoose.connect('mongodb+srv://astha:astha123@cluster0.k86b83f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/student_result');
 /**
  * Get port from environment and store in Express.
  */
